@@ -1,0 +1,103 @@
+/* this is a comment*/
+/* RESET */
+*{margin:0;
+  padding:0;
+  box-sizing:boder-box;
+  font-size:16px;
+  text-decoration:none;}
+
+header{
+  width: 100%;
+  height: 20vh;
+  position: fixed;
+  z-index: 17;
+}
+
+body{
+  background-color:#Fdda00;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: white;
+}
+
+.logo{
+  width:15vw;
+  height:2vw;
+}
+
+nav{
+  background-color: black;
+  float: left;
+  position: absolute;
+  top:0;
+  left: 25%;
+  border-radius: 10px;
+}
+
+a{
+  margin-right: 10vw;
+  line-height: 20vh;
+  color: silver;
+  transition: all 2s;
+}
+
+a:hover{
+  color: white;
+  cursor: pointer;
+}
+
+
+#special{
+  background-image: url(../img/img.jpg);
+  background-color: black;
+  background-size: cover;
+}
+
+#special2{
+  background-image: url(../img/img2.jpg);
+  background-color: black;
+  background-size: cover;
+}
+
+#special3{
+  background-image: url(../img/img3.jpg);
+  background-color: black;
+  background-size: cover;
+}
+
+.big{
+  position:relative;
+  width: 100vw;
+  height: 100vh;
+  background-color:pink;
+}
+
+.copy{
+  width: 25vw;
+  margin-top: 10vh;
+}
+
+.content{
+  position: absolute;
+  left:25%;
+  top: 30%;
+}
+
+/* type graphy */
+h1{font-size: 10rem;
+  font-weight: 700;
+  box-shadow: black 5px 5px 5px;
+  border-radius: 20px;
+}
+
+h2{font-size: 1.5rem;
+  font-weight: 400;
+  color: Brown;
+}
+
+p{letter-spacing: 2px;
+  color: white;
+}
+
+::-webkit-scrollbar{
+  display: none;
+}
